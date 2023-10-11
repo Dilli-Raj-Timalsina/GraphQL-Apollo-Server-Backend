@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "target": "ES6", // or your desired ECMAScript version
+        "module": "CommonJS", // or another module system you prefer
+        "outDir": "./dist", // specify your output directory
+        "rootDir": "./app", // specify your source code directory
+        "strict": true,
+        "esModuleInterop": true
+    },
+    "include": ["./app/*.ts"], // specify the files to include
+    "exclude": ["node_modules"] // specify the files or folders to exclude
+}
